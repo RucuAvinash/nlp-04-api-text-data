@@ -86,6 +86,11 @@ def run_transform(
             .then(pl.lit("low-maintenance"))
             .when(pl.col("origin").str.to_lowercase() == "mutation")
             .then(pl.lit("average-maintenance"))
+            .when(
+                (pl.col("origin").is_null())
+                | (pl.col("origin").str.to_lowercase() == "")
+            )
+            .then(pl.lit("Breed-Unknown"))
             .otherwise(pl.lit("high-maintenance"))
             .alias("Cat_maintenance_level")
         ]

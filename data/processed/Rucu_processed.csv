@@ -1,0 +1,26 @@
+Cat_breed,country,origin,coat,pattern,Cat_maintenance_level
+Abyssinian,Ethiopia,Natural/Standard,Short,Ticked,low-maintenance
+Aegean,Greece,Natural/Standard,Semi-long,Bi- or tri-colored,low-maintenance
+American Curl,United States,Mutation,Short/Long,All,average-maintenance
+American Bobtail,United States,Mutation,Short/Long,All,average-maintenance
+American Shorthair,United States,Natural,Short,All but colorpoint,low-maintenance
+American Wirehair,United States,Mutation,Rex,All but colorpoint,average-maintenance
+Arabian Mau,Arabian Peninsula,Natural,Short,"",low-maintenance
+Australian Mist,Australia,Crossbreed,Short,Spotted and Classic tabby,high-maintenance
+Asian,developed in the United Kingdom (founding stock from Asia),"",Short,Evenly solid,high-maintenance
+Asian Semi-longhair,United Kingdom,Crossbreed,Semi-long,Solid,high-maintenance
+Balinese,developed in the United States (founding stock from Thailand),Crossbreed,Long,Colorpoint,high-maintenance
+Bambino,United States,Crossbreed,Hairless/Furry down,"",high-maintenance
+Bengal,developed in the United States (founding stock from Asia),Hybrid,Short,Spotted/Marbled,high-maintenance
+Birman,developed in France (founding stock from Burma),Natural,Semi Long,Colorpoint,low-maintenance
+Bombay,developed in the United States (founding stock from Asia),Crossbred,Short,Solid,high-maintenance
+Brazilian Shorthair,Brazil,Natural,Short,All,low-maintenance
+British Semi-longhair,United Kingdom,"",Medium,All,high-maintenance
+British Shorthair,United Kingdom,Natural,Short,All,low-maintenance
+British Longhair,United Kingdom,"",Long,"",high-maintenance
+Burmese,Burma and Thailand,Natural,Short,Solid,low-maintenance
+Burmilla,United Kingdom,Crossbreed,Short/Long,"",high-maintenance
+California Spangled,United States,Crossbreed,Short,Spotted,high-maintenance
+Chantilly-Tiffany,United States,"","","",high-maintenance
+Chartreux,France,Natural,Short,Solid,low-maintenance
+Chausie,France,Hybrid,Short,Ticked,high-maintenance

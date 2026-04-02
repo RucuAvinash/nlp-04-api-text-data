@@ -57,3 +57,294 @@ shape: (5, 6)
 2026-03-28 23:18:30 | INFO | CI | ========================
 2026-03-28 23:18:30 | INFO | CI | Pipeline executed successfully!
 2026-03-28 23:18:30 | INFO | CI | ========================
+2026-04-01 22:49:34 | INFO | CI | === RUN START ===
+2026-04-01 22:49:34 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-01 22:49:34 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-01 22:49:34 | INFO | CI | python=3.14.2
+2026-04-01 22:49:34 | INFO | CI | os=Windows 11
+2026-04-01 22:49:34 | INFO | CI | shell=powershell
+2026-04-01 22:49:34 | INFO | CI | cwd=.
+2026-04-01 22:49:34 | INFO | CI | github_actions=False
+2026-04-01 22:49:34 | INFO | CI | START PIPELINE
+2026-04-01 22:49:34 | INFO | CI | ROOT_PATH = .
+2026-04-01 22:49:34 | INFO | CI | DATA_PATH = data
+2026-04-01 22:49:34 | INFO | CI | RAW_PATH = data\raw
+2026-04-01 22:49:34 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-01 22:49:34 | INFO | CI | ========================
+2026-04-01 22:49:34 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-01 22:49:34 | INFO | CI | ========================
+2026-04-01 22:49:34 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/posts
+2026-04-01 22:49:34 | INFO | CI | SINK PATH = data\raw\case_raw.json
+2026-04-01 22:49:34 | INFO | CI | ========================
+2026-04-01 22:49:34 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-01 22:49:34 | INFO | CI | ========================
+2026-04-01 22:49:34 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-01 22:49:34 | INFO | CI | Top-level type: list
+2026-04-01 22:49:34 | INFO | CI | Keys in first record: ['userId', 'id', 'title', 'body']
+2026-04-01 22:49:34 | INFO | CI | Field types:
+2026-04-01 22:49:34 | INFO | CI | userId: int
+2026-04-01 22:49:34 | INFO | CI | id: int
+2026-04-01 22:49:34 | INFO | CI | title: str
+2026-04-01 22:49:34 | INFO | CI | body: str
+2026-04-01 22:49:34 | INFO | CI | Validation passed.
+2026-04-01 22:49:34 | INFO | CI | Sink: validated JSON object
+2026-04-01 22:49:34 | INFO | CI | ========================
+2026-04-01 22:49:34 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-01 22:49:34 | INFO | CI | ========================
+2026-04-01 23:07:18 | INFO | CI | === RUN START ===
+2026-04-01 23:07:18 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-01 23:07:18 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-01 23:07:18 | INFO | CI | python=3.14.2
+2026-04-01 23:07:18 | INFO | CI | os=Windows 11
+2026-04-01 23:07:18 | INFO | CI | shell=powershell
+2026-04-01 23:07:18 | INFO | CI | cwd=.
+2026-04-01 23:07:18 | INFO | CI | github_actions=False
+2026-04-01 23:07:18 | INFO | CI | START PIPELINE
+2026-04-01 23:07:18 | INFO | CI | ROOT_PATH = .
+2026-04-01 23:07:18 | INFO | CI | DATA_PATH = data
+2026-04-01 23:07:18 | INFO | CI | RAW_PATH = data\raw
+2026-04-01 23:07:18 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-01 23:07:18 | INFO | CI | ========================
+2026-04-01 23:07:18 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-01 23:07:18 | INFO | CI | ========================
+2026-04-01 23:07:19 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/posts
+2026-04-01 23:07:19 | INFO | CI | SINK PATH = data\raw\case_raw.json
+2026-04-01 23:07:19 | INFO | CI | ========================
+2026-04-01 23:07:19 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-01 23:07:19 | INFO | CI | ========================
+2026-04-01 23:07:19 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-01 23:07:19 | INFO | CI | Top-level type: list
+2026-04-01 23:07:19 | INFO | CI | Keys in first record: ['userId', 'id', 'title', 'body']
+2026-04-01 23:07:19 | INFO | CI | Field types:
+2026-04-01 23:07:19 | INFO | CI | userId: int
+2026-04-01 23:07:19 | INFO | CI | id: int
+2026-04-01 23:07:19 | INFO | CI | title: str
+2026-04-01 23:07:19 | INFO | CI | body: str
+2026-04-01 23:07:19 | INFO | CI | Validation passed.
+2026-04-01 23:07:19 | INFO | CI | Sink: validated JSON object
+2026-04-01 23:07:19 | INFO | CI | ========================
+2026-04-01 23:07:19 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-01 23:07:19 | INFO | CI | ========================
+2026-04-01 23:12:08 | INFO | CI | === RUN START ===
+2026-04-01 23:12:08 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-01 23:12:08 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-01 23:12:08 | INFO | CI | python=3.14.2
+2026-04-01 23:12:08 | INFO | CI | os=Windows 11
+2026-04-01 23:12:08 | INFO | CI | shell=powershell
+2026-04-01 23:12:08 | INFO | CI | cwd=.
+2026-04-01 23:12:08 | INFO | CI | github_actions=False
+2026-04-01 23:12:08 | INFO | CI | START PIPELINE
+2026-04-01 23:12:08 | INFO | CI | ROOT_PATH = .
+2026-04-01 23:12:08 | INFO | CI | DATA_PATH = data
+2026-04-01 23:12:08 | INFO | CI | RAW_PATH = data\raw
+2026-04-01 23:12:08 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-01 23:12:08 | INFO | CI | ========================
+2026-04-01 23:12:08 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-01 23:12:08 | INFO | CI | ========================
+2026-04-02 17:34:33 | INFO | CI | === RUN START ===
+2026-04-02 17:34:33 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 17:34:33 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-02 17:34:33 | INFO | CI | python=3.14.2
+2026-04-02 17:34:33 | INFO | CI | os=Windows 11
+2026-04-02 17:34:33 | INFO | CI | shell=powershell
+2026-04-02 17:34:33 | INFO | CI | cwd=.
+2026-04-02 17:34:33 | INFO | CI | github_actions=False
+2026-04-02 17:34:33 | INFO | CI | START PIPELINE
+2026-04-02 17:34:33 | INFO | CI | ROOT_PATH = .
+2026-04-02 17:34:33 | INFO | CI | DATA_PATH = data
+2026-04-02 17:34:33 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 17:34:33 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 17:34:33 | INFO | CI | ========================
+2026-04-02 17:34:33 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 17:34:33 | INFO | CI | ========================
+2026-04-02 17:34:34 | INFO | CI | SOURCE PATH = https://catfact.ninja/breeds
+2026-04-02 17:34:34 | INFO | CI | SINK PATH = data\raw\Rucu_raw.json
+2026-04-02 17:34:34 | INFO | CI | ========================
+2026-04-02 17:34:34 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 17:34:34 | INFO | CI | ========================
+2026-04-02 17:34:34 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 17:34:34 | INFO | CI | Top-level type: dict
+2026-04-02 17:45:25 | INFO | CI | === RUN START ===
+2026-04-02 17:45:25 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 17:45:25 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-02 17:45:25 | INFO | CI | python=3.14.2
+2026-04-02 17:45:25 | INFO | CI | os=Windows 11
+2026-04-02 17:45:25 | INFO | CI | shell=powershell
+2026-04-02 17:45:25 | INFO | CI | cwd=.
+2026-04-02 17:45:25 | INFO | CI | github_actions=False
+2026-04-02 17:45:25 | INFO | CI | START PIPELINE
+2026-04-02 17:45:25 | INFO | CI | ROOT_PATH = .
+2026-04-02 17:45:25 | INFO | CI | DATA_PATH = data
+2026-04-02 17:45:25 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 17:45:25 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 17:45:25 | INFO | CI | ========================
+2026-04-02 17:45:25 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 17:45:25 | INFO | CI | ========================
+2026-04-02 17:45:25 | INFO | CI | SOURCE PATH = https://catfact.ninja/breeds
+2026-04-02 17:45:25 | INFO | CI | SINK PATH = data\raw\Rucu_raw.json
+2026-04-02 17:45:25 | INFO | CI | ========================
+2026-04-02 17:45:25 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 17:45:25 | INFO | CI | ========================
+2026-04-02 17:45:25 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 17:45:25 | INFO | CI | Top-level type: list
+2026-04-02 17:45:25 | INFO | CI | Keys in first record: ['breed', 'country', 'origin', 'coat', 'pattern']
+2026-04-02 17:45:25 | INFO | CI | Field types:
+2026-04-02 17:45:25 | INFO | CI | breed: str
+2026-04-02 17:45:25 | INFO | CI | country: str
+2026-04-02 17:45:25 | INFO | CI | origin: str
+2026-04-02 17:45:25 | INFO | CI | coat: str
+2026-04-02 17:45:25 | INFO | CI | pattern: str
+2026-04-02 17:45:25 | INFO | CI | Validation passed.
+2026-04-02 17:45:25 | INFO | CI | Sink: validated JSON object
+2026-04-02 17:45:25 | INFO | CI | ========================
+2026-04-02 17:45:25 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 17:45:25 | INFO | CI | ========================
+2026-04-02 17:47:40 | INFO | CI | === RUN START ===
+2026-04-02 17:47:40 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 17:47:40 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-02 17:47:40 | INFO | CI | python=3.14.2
+2026-04-02 17:47:40 | INFO | CI | os=Windows 11
+2026-04-02 17:47:40 | INFO | CI | shell=powershell
+2026-04-02 17:47:40 | INFO | CI | cwd=.
+2026-04-02 17:47:40 | INFO | CI | github_actions=False
+2026-04-02 17:47:40 | INFO | CI | START PIPELINE
+2026-04-02 17:47:40 | INFO | CI | ROOT_PATH = .
+2026-04-02 17:47:40 | INFO | CI | DATA_PATH = data
+2026-04-02 17:47:40 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 17:47:40 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 17:47:40 | INFO | CI | ========================
+2026-04-02 17:47:40 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 17:47:40 | INFO | CI | ========================
+2026-04-02 17:47:40 | INFO | CI | SOURCE PATH = https://catfact.ninja/breeds
+2026-04-02 17:47:40 | INFO | CI | SINK PATH = data\raw\Rucu_raw.json
+2026-04-02 17:47:40 | INFO | CI | ========================
+2026-04-02 17:47:40 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 17:47:40 | INFO | CI | ========================
+2026-04-02 17:47:40 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 17:47:40 | INFO | CI | Top-level type: list
+2026-04-02 17:47:40 | INFO | CI | Keys in first record: ['breed', 'country', 'origin', 'coat', 'pattern']
+2026-04-02 17:47:40 | INFO | CI | Field types:
+2026-04-02 17:47:40 | INFO | CI | breed: str
+2026-04-02 17:47:40 | INFO | CI | country: str
+2026-04-02 17:47:40 | INFO | CI | origin: str
+2026-04-02 17:47:40 | INFO | CI | coat: str
+2026-04-02 17:47:40 | INFO | CI | pattern: str
+2026-04-02 17:47:40 | INFO | CI | Validation passed.
+2026-04-02 17:47:40 | INFO | CI | Sink: validated JSON object
+2026-04-02 17:47:40 | INFO | CI | ========================
+2026-04-02 17:47:40 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 17:47:40 | INFO | CI | ========================
+2026-04-02 17:47:40 | INFO | CI | Transformation complete.
+2026-04-02 17:47:40 | INFO | CI | DataFrame preview:
+shape: (5, 5)
+┌────────────────────┬───────────────┬──────────────────┬────────────┬────────────────────┐
+│ Cat_breed          ┆ country       ┆ origin           ┆ coat       ┆ pattern            │
+│ ---                ┆ ---           ┆ ---              ┆ ---        ┆ ---                │
+│ str                ┆ str           ┆ str              ┆ str        ┆ str                │
+╞════════════════════╪═══════════════╪══════════════════╪════════════╪════════════════════╡
+│ Abyssinian         ┆ Ethiopia      ┆ Natural/Standard ┆ Short      ┆ Ticked             │
+│ Aegean             ┆ Greece        ┆ Natural/Standard ┆ Semi-long  ┆ Bi- or tri-colored │
+│ American Curl      ┆ United States ┆ Mutation         ┆ Short/Long ┆ All                │
+│ American Bobtail   ┆ United States ┆ Mutation         ┆ Short/Long ┆ All                │
+│ American Shorthair ┆ United States ┆ Natural          ┆ Short      ┆ All but colorpoint │
+└────────────────────┴───────────────┴──────────────────┴────────────┴────────────────────┘
+2026-04-02 17:47:40 | INFO | CI | Sink: Polars DataFrame created
+2026-04-02 17:47:40 | INFO | CI | ========================
+2026-04-02 17:47:40 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-02 17:47:40 | INFO | CI | ========================
+2026-04-02 17:47:40 | INFO | CI | SINK PATH = data\processed\Rucu_processed.csv
+2026-04-02 17:47:40 | INFO | CI | ========================
+2026-04-02 17:47:40 | INFO | CI | Pipeline executed successfully!
+2026-04-02 17:47:40 | INFO | CI | ========================
+2026-04-02 18:11:13 | INFO | CI | === RUN START ===
+2026-04-02 18:11:13 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 18:11:13 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-02 18:11:13 | INFO | CI | python=3.14.2
+2026-04-02 18:11:13 | INFO | CI | os=Windows 11
+2026-04-02 18:11:13 | INFO | CI | shell=powershell
+2026-04-02 18:11:13 | INFO | CI | cwd=.
+2026-04-02 18:11:13 | INFO | CI | github_actions=False
+2026-04-02 18:11:13 | INFO | CI | START PIPELINE
+2026-04-02 18:11:13 | INFO | CI | ROOT_PATH = .
+2026-04-02 18:11:13 | INFO | CI | DATA_PATH = data
+2026-04-02 18:11:13 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 18:11:13 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 18:11:13 | INFO | CI | ========================
+2026-04-02 18:11:13 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 18:11:13 | INFO | CI | ========================
+2026-04-02 18:11:14 | INFO | CI | SOURCE PATH = https://catfact.ninja/breeds
+2026-04-02 18:11:14 | INFO | CI | SINK PATH = data\raw\Rucu_raw.json
+2026-04-02 18:11:14 | INFO | CI | ========================
+2026-04-02 18:11:14 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 18:11:14 | INFO | CI | ========================
+2026-04-02 18:11:14 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 18:11:14 | INFO | CI | Top-level type: list
+2026-04-02 18:11:14 | INFO | CI | Keys in first record: ['breed', 'country', 'origin', 'coat', 'pattern']
+2026-04-02 18:11:14 | INFO | CI | Field types:
+2026-04-02 18:11:14 | INFO | CI | breed: str
+2026-04-02 18:11:14 | INFO | CI | country: str
+2026-04-02 18:11:14 | INFO | CI | origin: str
+2026-04-02 18:11:14 | INFO | CI | coat: str
+2026-04-02 18:11:14 | INFO | CI | pattern: str
+2026-04-02 18:11:14 | INFO | CI | Validation passed.
+2026-04-02 18:11:14 | INFO | CI | Sink: validated JSON object
+2026-04-02 18:11:14 | INFO | CI | ========================
+2026-04-02 18:11:14 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 18:11:14 | INFO | CI | ========================
+2026-04-02 18:16:27 | INFO | CI | === RUN START ===
+2026-04-02 18:16:27 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 18:16:27 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-02 18:16:27 | INFO | CI | python=3.14.2
+2026-04-02 18:16:27 | INFO | CI | os=Windows 11
+2026-04-02 18:16:27 | INFO | CI | shell=powershell
+2026-04-02 18:16:27 | INFO | CI | cwd=.
+2026-04-02 18:16:27 | INFO | CI | github_actions=False
+2026-04-02 18:16:27 | INFO | CI | START PIPELINE
+2026-04-02 18:16:27 | INFO | CI | ROOT_PATH = .
+2026-04-02 18:16:27 | INFO | CI | DATA_PATH = data
+2026-04-02 18:16:27 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 18:16:27 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 18:16:27 | INFO | CI | ========================
+2026-04-02 18:16:27 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 18:16:27 | INFO | CI | ========================
+2026-04-02 18:16:28 | INFO | CI | SOURCE PATH = https://catfact.ninja/breeds
+2026-04-02 18:16:29 | INFO | CI | SINK PATH = data\raw\Rucu_raw.json
+2026-04-02 18:16:29 | INFO | CI | ========================
+2026-04-02 18:16:29 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 18:16:29 | INFO | CI | ========================
+2026-04-02 18:16:29 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 18:16:29 | INFO | CI | Top-level type: list
+2026-04-02 18:16:29 | INFO | CI | Keys in first record: ['breed', 'country', 'origin', 'coat', 'pattern']
+2026-04-02 18:16:29 | INFO | CI | Field types:
+2026-04-02 18:16:29 | INFO | CI | breed: str
+2026-04-02 18:16:29 | INFO | CI | country: str
+2026-04-02 18:16:29 | INFO | CI | origin: str
+2026-04-02 18:16:29 | INFO | CI | coat: str
+2026-04-02 18:16:29 | INFO | CI | pattern: str
+2026-04-02 18:16:29 | INFO | CI | Validation passed.
+2026-04-02 18:16:29 | INFO | CI | Sink: validated JSON object
+2026-04-02 18:16:29 | INFO | CI | ========================
+2026-04-02 18:16:29 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 18:16:29 | INFO | CI | ========================
+2026-04-02 18:16:29 | INFO | CI | Transformation complete.
+2026-04-02 18:16:29 | INFO | CI | DataFrame preview:
+shape: (5, 6)
+┌────────────────────┬───────────────┬──────────────────┬────────────┬────────────────────┬───────────────────────┐
+│ Cat_breed          ┆ country       ┆ origin           ┆ coat       ┆ pattern            ┆ Cat_maintenance_level │
+│ ---                ┆ ---           ┆ ---              ┆ ---        ┆ ---                ┆ ---                   │
+│ str                ┆ str           ┆ str              ┆ str        ┆ str                ┆ str                   │
+╞════════════════════╪═══════════════╪══════════════════╪════════════╪════════════════════╪═══════════════════════╡
+│ Abyssinian         ┆ Ethiopia      ┆ Natural/Standard ┆ Short      ┆ Ticked             ┆ low-maintenance       │
+│ Aegean             ┆ Greece        ┆ Natural/Standard ┆ Semi-long  ┆ Bi- or tri-colored ┆ low-maintenance       │
+│ American Curl      ┆ United States ┆ Mutation         ┆ Short/Long ┆ All                ┆ average-maintenance   │
+│ American Bobtail   ┆ United States ┆ Mutation         ┆ Short/Long ┆ All                ┆ average-maintenance   │
+│ American Shorthair ┆ United States ┆ Natural          ┆ Short      ┆ All but colorpoint ┆ low-maintenance       │
+└────────────────────┴───────────────┴──────────────────┴────────────┴────────────────────┴───────────────────────┘
+2026-04-02 18:16:29 | INFO | CI | Sink: Polars DataFrame created
+2026-04-02 18:16:29 | INFO | CI | ========================
+2026-04-02 18:16:29 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-02 18:16:29 | INFO | CI | ========================
+2026-04-02 18:16:29 | INFO | CI | SINK PATH = data\processed\Rucu_processed.csv
+2026-04-02 18:16:29 | INFO | CI | ========================
+2026-04-02 18:16:29 | INFO | CI | Pipeline executed successfully!
+2026-04-02 18:16:29 | INFO | CI | ========================
